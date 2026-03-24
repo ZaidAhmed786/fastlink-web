@@ -8428,7 +8428,7 @@
 
 .author-slider-block .inner-box h1{
 	opacity:0;
-	line-height:1em;
+	line-height:0em;
 	color:var(--white-color);
 	margin-top:var(--margin-top-25);
 	font-family:var(--font-family-Sen);
@@ -8437,11 +8437,13 @@
 	-moz-transition: all 100ms ease;
 	-ms-transition: all 1000ms ease;
 	-o-transition: all 1000ms ease;
+	letter-spacing: 1px;
 	transition: all 1000ms ease;
 }
 
 .author-slider-section .active h1{
 	opacity:1;
+	letter-spacing: 1px;
 	transform: translateX(0px);
 	-webkit-transition-delay: 300ms;
 	-moz-transition-delay: 300ms;
@@ -11706,9 +11708,9 @@
     -webkit-text-fill-color: transparent;
 	
 	opacity: 0;
-	font-size:300px;
+	font-size:60px;
 	line-height:1em;
-	letter-spacing:-10px;
+	letter-spacing:1px;
 	transform: translateX(200px);
 	transform-origin: top;
 	-webkit-transition: all 1000ms ease;

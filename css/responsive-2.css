@@ -203,6 +203,14 @@
 		font-size: 140px;
 	}
 	
+.main-slider-five .slide{
+	position:relative;
+	overflow:hidden;
+	padding:50px 0px 100px;
+	background-size:cover;
+	background-position:center center;
+}
+
 }
 
 @media only screen and (max-width: 479px) {
