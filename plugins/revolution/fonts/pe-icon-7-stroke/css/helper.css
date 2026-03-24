@@ -61,7 +61,8 @@
   float: left;
 }
 .pe.pull-left {
-  margin-right: .3em;
+  margin-right: .2em;
+  margin-top: 20px;
 }
 .pe.pull-right {
   margin-left: .3em;

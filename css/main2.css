@@ -601,7 +601,7 @@
 }
 .about-hero-2{
     background:white;
-    padding:115px 0px 50px 0px;
+    padding:145px 0px 50px 0px;
     background-size: cover;
 }
 
@@ -733,6 +733,22 @@
 .lower-contents .border {
     border-radius: 10px;
 }
+.check-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.check-list li {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+.check-list li i {
+  color: green;
+  margin-right: 8px;
+}
 /* Responsive */
 @media (max-width: 991px) {
   .main-heading {
@@ -741,4 +757,9 @@
     .right-content {
     margin-top: 30px;
   }
+  .about-hero-2{
+    background:white;
+    padding:55px 0px 50px 0px;
+    background-size: cover;
+}
 }
